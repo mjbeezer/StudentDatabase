@@ -21,7 +21,7 @@ namespace Stduent_Database
                 {
                     Console.WriteLine("Which student would you like to learn more about? Please enter a number, 0 through 13.");
                     choice = int.Parse(Console.ReadLine().Trim());
-                    if (choice > 14 || choice < 0)
+                    if (choice > 13 || choice < 0)
                     {
                         Console.WriteLine("That student does not exist. Please enter a number, 0 through 13.");
                     }
